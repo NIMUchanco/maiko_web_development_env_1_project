@@ -15,7 +15,7 @@
         <h1 class="logo">Maiko Matsuoka</h1>
         <nav>
             <a href="index.php">Home</a>
-            <a href="about.html">About me</a>
+            <a href="about.php">About me</a>
         </nav>
     </header>
 
