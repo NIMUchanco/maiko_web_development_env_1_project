@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@800&family=Quicksand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 30px;
+    color: bisque;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 24px;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 958px) {
+    .text h2 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 835px) {
+    header {
+        padding: 30px 40px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        gap: 30px;
+    }
+
+    .text p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 610px) {
+    header {
+        padding: 30px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    .text h2 {
+        font-size: 40px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .banner {
+        justify-content: center;
+    }
+}
